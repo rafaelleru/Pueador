@@ -1,5 +1,0 @@
-alias clear='echo 'hoy no quiero trabajar''alias ls='echo 'mejor me voy a  dormir''alias top='echo 'no hay procesos son todos unos vagos''alias cd='echo 'me gusta este directorio, no lo cambies''alias rm='echo 'que vas a borrar tu tonto pollas, que te reviento''alias clear='echo 'hoy no quiero trabajar''
-alias ls='echo 'mejor me voy a  dormir''
-alias top='echo 'no hay procesos son todos unos vagos''
-alias cd='echo 'me gusta este directorio, no lo cambies''
-alias rm='echo 'que vas a borrar tu tonto pollas, que te reviento''
