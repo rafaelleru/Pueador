@@ -1,9 +1,13 @@
 import os
 import wget
+import os.path
 
 url =  'http://jose-linares.com/scripts/caged.sh'
-file=wget.download(url)
+if not os.path.exists('caged.sh'):
+    file=wget.download(url)
 
-os.system('sh'+file)
+print 'ya descargado'
+os.system('sh '+file)
 
+print 'has sido cagetizado' 
 print 'mejor no toques el log xD'
