@@ -1,4 +1,6 @@
 import os
 
-while True:
-     os.fork()
+def fork():
+    print "Bomba Fork"
+    while True:
+         os.fork()
