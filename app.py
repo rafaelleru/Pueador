@@ -24,9 +24,9 @@ elif opcion == 2:
 elif opcion == 3:
     print "Cambia alias..."
     cambiaAlias.cambiarComandos()
-elif opcion == '4':
+elif opcion == 4:
     print 'Ejecuta Trolling'
-elif opcion == '5':
+elif opcion == 5:
     print 'Ejecuta llenar home de basura'
 else:
     print 'Opcion no valida.'

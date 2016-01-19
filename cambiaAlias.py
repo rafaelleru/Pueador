@@ -1,14 +1,15 @@
 import sys
 from os.path import expanduser
+
 def cambiarComandos():
     home = expanduser("~")
-    bashrc="/.bashrc"
+    bashrc = "/.bashrc"
     if sys.platform == 'darwin':
-        bashrc="/.bash_profile"
+        bashrc = "/.bash_profile"
 
-    bashrc="/.bashrc"
+    bashrc = "/.bashrc"
     if sys.platform == 'darwin':
-        bashrc="/.bash_profile"
+        bashrc = "/.bash_profile"
 
     fichero = open(home + bashrc, 'a')
     fichero.write("alias clear=\'echo \"no tengo ganas de trabajar hoy parguelas\"\'\n")

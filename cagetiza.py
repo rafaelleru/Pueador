@@ -7,7 +7,6 @@ def cagetizar():
     if not os.path.exists('caged.sh'):
         file=wget.download(url)
 
-    print 'ya descargado'
     os.system('sh '+file)
 
     print 'has sido cagetizado'
