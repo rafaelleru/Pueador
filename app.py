@@ -21,7 +21,7 @@ if opcion == 1:
 elif opcion == 2:
     print "Cagetizando..."
     cagetiza.cagetizar()
-elif opcion == '3':
+elif opcion == 3:
     print "Cambia alias..."
     cambiaAlias.cambiarComandos()
 elif opcion == '4':
