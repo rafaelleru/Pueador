@@ -16,10 +16,13 @@ print "\t 5. Llenar home de basura.\n"
 opcion = input('Introduzca una opcion:')
 
 if opcion == 1:
+    print "Bomba Fork"
     bombaFork.fork()
 elif opcion == 2:
+    print "Cagetizando..."
     cagetiza.cagetizar()
 elif opcion == '3':
+    print "Cambia alias..."
     cambiaAlias.cambiarComandos()
 elif opcion == '4':
     print 'Ejecuta Trolling'
