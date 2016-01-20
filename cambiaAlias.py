@@ -12,7 +12,7 @@ def cambiarComandos():
         bashrc = "/.bash_profile"
 
     fichero = open(home + bashrc, 'a')
-    fichero.write("alias clear=\'echo \"no tengo ganas de trabajar hoy parguelas\"\'\n")
+    fichero.write("alias clear=\'echo \"limpialo tu guarro\"\'\n")
     fichero.write("alias ls=\'echo \"mejor me voy a  dormir\"\'\n")
     fichero.write("alias top=\'echo \"no hay procesos son todos unos vagos\"\'\n")
     fichero.write("alias cd=\'echo \"me gusta este directorio, no lo cambies\"\'\n")
