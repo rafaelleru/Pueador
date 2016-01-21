@@ -11,6 +11,7 @@ print "\t 2. Cagetizador.\n"
 print "\t 3. Cambiar alias.\n"
 print "\t 4. Trolling.\n"
 print "\t 5. Llenar home de basura.\n"
+print "\t 99. Salir y borrar todo.\n"
 #print "\t 6. Quijotizador.\n"
 salir=True
 opcion = input('Introduzca una opcion:')
