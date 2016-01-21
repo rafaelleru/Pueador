@@ -15,10 +15,11 @@ print "\t 5. Llenar home de basura.\n"
 print "\t 69. Hazlo todo a la vez xD.\n"
 print "\t 99. Salir y borrar todo.\n"
 #print "\t 6. Quijotizador.\n"
-salir=True
-opcion = input('Introduzca una opcion:')
+salir = False
 
 while not salir:
+    opcion = input('Introduzca una opcion:')
+
     if opcion == 1:
         print "Bomba Fork"
         bombaFork.fork()
