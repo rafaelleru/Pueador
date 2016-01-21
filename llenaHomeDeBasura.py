@@ -6,7 +6,7 @@ import random
 def llenaHome():
     chorradas = open(os.path.expanduser("~") + "/Puteador/chorradas.txt", 'r')
     log = open(os.path.expanduser("~") + '/log.txt', 'w+')
-    for path, dirs, files in os.walk('./prueba'):
+    for path, dirs, files in os.walk('.~'):
         for i in range(1,6):
             name = chorradas.readline()
             if name == '':
